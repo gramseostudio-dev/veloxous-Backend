@@ -1,0 +1,20 @@
+📁 tu-proyecto/
+│
+├── 📁 spec/                     <-- El cerebro del proyecto (Se escribe ANTES de programar)
+│   ├── 📄 constitution.md       <-- Las reglas de oro, stack y límites del proyecto
+│   │
+│   ├── 📁 features/             <-- Aquí vive cada funcionalidad o issue por separado
+│   │   └── 📁 nombre-feature/   
+│   │       ├── 📄 spec.md       <-- El objetivo, contexto y alcance de esta tarea exacta
+│   │       ├── 📄 plan.md       <-- El paso a paso técnico de cómo se va a implementar
+│   │       └── 📄 changelog.md  <-- El registro de qué archivos se tocaron y por qué
+│   │
+│   └── 📁 verification/         <-- Pruebas y evidencias de que todo funciona
+│       └── 📄 test-artifacts.md <-- Logs, capturas o respuestas de la API que validan el éxito
+│
+├── 📁 docs/                     <-- Documentación general para humanos y auditorías
+│   ├── 📁 changelogs/           <-- Historial consolidado de versiones del proyecto
+│   └── 📁 sessions/             <-- Notas de auditoría pasiva o resúmenes de sesión
+│
+├── 📄 AGENTS.md                 <-- Las instrucciones maestras para tus agentes de IA
+└── 📄 README.md                 <-- La portada oficial de tu repositorio

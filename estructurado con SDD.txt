@@ -1,0 +1,16 @@
+/ (Raíz del proyecto clonado)
+├── docs/                             <- Carpeta principal para bitácoras y entregables
+│   ├── sessions/                     <- Notas rápidas y contexto de cada sesión de trabajo
+│   │   └── sesion-2026-06-27.md      
+│   └── changelogs/                   <- Resúmenes de tareas completadas (lo que le vas a enviar al cliente)
+│       └── changelog-issue-48.md     
+├── spec/                             <- Carpeta de la metodología SDD
+│   ├── constitution/                 <- El corazón fijo del proyecto (se hace una vez)
+│   │   ├── mission.md                <- El objetivo general de tu colaboración
+│   │   ├── tech-stack.md             <- Las tecnologías y versiones (con Context7)
+│   │   └── roadmap.md                <- El orden secuencial de los issues que vas a atacar
+│   └── features/                     <- Una carpeta modular por cada tarea/issue de GitHub
+│       └── secure-supabase-client/   <- (Ejemplo: Carpeta del Issue #48)
+│           ├── spec.md               <- Criterios de aceptación y requerimientos del bot
+│           ├── plan.md               <- Estrategia técnica (arquitectura de archivos)
+│           └── tasks.md              <- Checklist del paso a paso de implementación
